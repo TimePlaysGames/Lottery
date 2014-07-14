@@ -91,7 +91,7 @@ public class LotteryConfig
 	public void loadCustomMessages()
 	{
 		messages = new HashMap<String, List<String>>();
-		messages.put("prefix", formatCustomMessage("message.prefix", "&6[LOTTERY]&r"));
+		messages.put("prefix", formatCustomMessage("message.prefix", "&c[LOTTERY]&r"));
 
 		messages.put("Welcome", formatCustomMessage("message.Welcome", "%prefix% &fDraw in: &c%drawLong%"));
 		messages.put("ErrorPlugin", formatCustomMessage("message.ErrorPlugin", "%prefix% Sorry, we haven\'t found a money plugin yet.."));
